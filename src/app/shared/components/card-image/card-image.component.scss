@@ -1,0 +1,30 @@
+.card-image__box {
+  width: 310px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 5px;
+
+  .content__box {
+    padding: 1.5em;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.8em;
+
+    span {
+      font-size: 0.7em;
+      color: var(--blue-grayish);
+    }
+
+    h3 {
+      font-weight: 400;
+    }
+
+    p {
+      color: var(--blue-grayish);
+      line-height: 1.4em;
+      font-size: 0.9em;
+    }
+  }
+}

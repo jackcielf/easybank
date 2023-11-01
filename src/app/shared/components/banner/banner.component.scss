@@ -1,0 +1,39 @@
+.banner__container {
+    height: 90vh;
+    background: url(/assets/images/bg-intro-desktop.svg) no-repeat;
+    background-position: 650px -310px;
+    background-size: cover;
+    background-color: var(--light);
+
+  .box__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    .box__text {
+      height: 90vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      row-gap: 1em;
+
+      h1 {
+        font-size: 3em;
+        font-weight: 300;
+      }
+
+      p {
+        color: var(--blue-grayish);
+        line-height: 1.4em;
+      }
+    }
+
+    .box__img {
+      img {
+        position: relative;
+        z-index: 1;
+        top: -100px;
+        right: -275px;
+      }
+    }
+  }
+}

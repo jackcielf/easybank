@@ -1,0 +1,23 @@
+.header__container {
+  padding: 1em 0;
+  background-color: var(--white);
+  position: relative;
+  z-index: 2;
+
+  .box__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .list {
+      display: flex;
+      align-items: center;
+      column-gap: 1.5em;
+      list-style-type: none;
+
+      .item {
+        color: var(--blue-grayish);
+      }
+    }
+  }
+}
