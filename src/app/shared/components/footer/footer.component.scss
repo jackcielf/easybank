@@ -1,5 +1,5 @@
 .footer__container {
-    background-color: var(--blue-dark);
+  background-color: var(--blue-dark);
 
   .box__container {
     height: 35vh;
@@ -8,12 +8,12 @@
     justify-content: space-between;
 
     .left__container {
-        display: flex;
-        column-gap: 6em;
+      display: flex;
+      column-gap: 6em;
 
-        img {
-            filter: invert(1);
-        }
+      .logo {
+        filter: invert(1);
+      }
 
       .networks__box {
         display: flex;
@@ -21,8 +21,8 @@
         row-gap: 4em;
 
         .list {
-            display: flex;
-            column-gap: 1em;
+          display: flex;
+          column-gap: 1em;
         }
       }
 
@@ -30,24 +30,24 @@
         display: flex;
         flex-direction: column;
         row-gap: 2em;
-        font-size: .9em;
+        font-size: 0.9em;
 
         .item {
-            color: var(--white);
+          color: var(--white);
         }
       }
     }
 
     .right__container {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        row-gap: 1.5em;
-        
-        p {
-            font-size: .8em;
-            color: var(--blue-grayish);
-        }
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      row-gap: 1.5em;
+
+      p {
+        font-size: 0.8em;
+        color: var(--blue-grayish);
+      }
     }
   }
 }
