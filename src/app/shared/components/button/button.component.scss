@@ -1,10 +1,15 @@
 button {
-    width: 160px;
-    height: 45px;
-    border-radius: 30px;
-    font-weight: 700;
-    font-size: .8em;
-    text-transform: capitalize;
-    color: var(--white);
-    background: var(--gradient-green-cyan);
+  width: 160px;
+  height: 45px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 0.8em;
+  text-transform: capitalize;
+  color: var(--white);
+  background: var(--gradient-green-cyan);
+  transition: all 0.3s;
+
+  &:hover {
+    opacity: 0.7;
+  }
 }

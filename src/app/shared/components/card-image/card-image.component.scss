@@ -26,6 +26,14 @@
 
     h3 {
       font-weight: 400;
+      transition: all 0.3s;
+
+      &:hover {
+        color: transparent;
+        background: var(--gradient-green-cyan);
+        -webkit-background-clip: text;
+        background-clip: text;
+      }
     }
 
     p {

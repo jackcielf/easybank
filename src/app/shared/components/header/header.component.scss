@@ -17,6 +17,23 @@
 
       .item {
         color: var(--blue-grayish);
+        position: relative;
+        transition: 0.3s;
+        font-size: 0.9em;
+
+        &:hover {
+          color: var(--blue-dark);
+
+          &::before {
+            content: "";
+            width: 100%;
+            height: 4px;
+            position: absolute;
+            left: 0;
+            bottom: -30px;  
+            background: var(--gradient-green-cyan);
+          }
+        }
       }
     }
   }

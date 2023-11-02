@@ -1,41 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Public Sans', sans-serif;
-    border: none;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Public Sans", sans-serif;
+  border: none;
+  box-sizing: border-box;
 }
 
 body {
-    font-size: 18px;
-    overflow-x: hidden;
+  font-size: 18px;
+  overflow-x: hidden;
 }
 
 :root {
-    // Primary
-    --blue-dark: #2d314d;
-    --lime-green: #31d35c;
-    --cyan: #2bb7da;
+  // Primary
+  --blue-dark: #2d314d;
+  --lime-green: #31d35c;
+  --cyan: #2bb7da;
 
-    --gradient-green-cyan: linear-gradient(to right, #31d35c, #2bb7da);
+  --gradient-green-cyan: linear-gradient(to right, #31d35c, #2bb7da);
 
-    // Neutral
-    --blue-grayish: #9698a6;
-    --blue-light-grayish: #f3f4f6;
-    --light: #fafafa;
-    --white: #fff;
+  // Neutral
+  --blue-grayish: #9698a6;
+  --blue-light-grayish: #f3f4f6;
+  --light: #fafafa;
+  --white: #fff;
 }
 
 .box__container {
-    padding: 0 8em;
+  padding: 0 8em;
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
-button, li {
-    cursor: pointer;
+button,
+li {
+  cursor: pointer;
 }
