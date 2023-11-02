@@ -1,29 +1,29 @@
 .why-choose__container {
-    background-color: var(--blue-light-grayish);
-    
-    .box__container {
-        height: 90vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        row-gap: 1.5em;
+  background-color: var(--blue-light-grayish);
 
-        h2 {
-            font-size: 2.1em;
-            font-weight: 400;
-        }
+  .box__container {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 1.5em;
 
-        p {
-            width: 52%;
-            min-width: 350px;
-            color: var(--blue-grayish);
-        }
-
-        .card__container {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            margin-top: 2em;
-        }
+    h2 {
+      font-size: 2.1em;
+      font-weight: 400;
     }
+
+    p {
+      width: 52%;
+      min-width: 350px;
+      color: var(--blue-grayish);
+    }
+
+    .card__container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 2em;
+    }
+  }
 }

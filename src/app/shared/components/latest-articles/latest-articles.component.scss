@@ -1,16 +1,23 @@
 .latest-articles__container {
-    background-color: var(--light);
+  background-color: var(--light);
 
-    .box__container {
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        row-gap: 1.5em;
+  .box__container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 1.5em;
 
-        h2 {
-            font-size: 2.1em;
-            font-weight: 400;
-        }
+    h2 {
+      font-size: 2.1em;
+      font-weight: 400;
     }
+
+    .card-image__container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 2em;
+    }
+  }
 }
